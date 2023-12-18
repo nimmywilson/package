@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>register Page</title>
+
+    <style>
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+button:hover {
+    background-color: #0067cc;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>register</h1>
+        
+        <form action="#">
+            <input type="text" id="username" name="username" required placeholder="Username">
+            <input type="text" id="phonenumber" name="phonenumber" required placeholder="Phone number">
+            <input type="email" id="email" name="email" required placeholder="email">
+            <input type="password" id="password" name="password" required placeholder="password">
+            <input type="password" id="password" name="password" required placeholder="conform password">
+            <button type="submit">register</button>
+            <a href="login.html" style="color: black;">Already have account? Login</a>
+        </form>
+    </div>
+</body>
+</html>
